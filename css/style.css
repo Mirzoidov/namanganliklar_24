@@ -794,10 +794,6 @@ button {
         align-items: normal;
     } 
 
-    .popup {
-        /* display: flex; */
-    }
-
     .popup__block {
         width: 55%;
     }
