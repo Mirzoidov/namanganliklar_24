@@ -28,11 +28,16 @@
                     <img src="./svg/ru.svg" alt="rus-icon">
                     <p>РУ</p>
                 </button>
-                <button class="tg-btn" type="submit">
+                <button class="tg-btn" type="submit" onclick="modal()">
                     <img src="./images/telegram.png" alt="telegram">
                     Подписатся
                 </button>
             </div>
+        </div>
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
         </div>
         <ul class="menu">
             <li class="menu__list-items">
@@ -93,7 +98,7 @@
                     <h4 class="contact__info-logo">
                         NAMANGANLIKLAR24
                     </h4>
-                    <div class="contact__info-block">
+                    <div class="contact__info-block desktop__info-block">
                         <div class="contact__info-left">
                             <p class="contact__info-left-title">Электронная почта</p>
                             <p class="contact__info-left-title">Социальные сети</p>
@@ -119,6 +124,30 @@
                             </div>
                         </div>
                     </div>
+                    <div class="contact__info-block mobile__info-block">
+                        <div class="contact__info-left">
+                            <p class="contact__info-left-title">Электронная почта</p>
+                            <p class="contact__info-right-email">
+                                info@namanganliklar24.uz
+                            </p>
+                            <p class="contact__info-left-title">Социальные сети</p>
+                            <div class="contact__info-right-svgs">
+                                <a href="#"><img src="images/facebook-r 1.png" alt="facebook"></a>
+                                <a href="#"><img src="images/twitter-r 1.png" alt="twitter-r"></a>
+                                <a href="#"><img src="images/odnoklasnik-r 1.png" alt="odnoklasnik-r"></a>
+                            </div>
+                            <p class="contact__info-left-title">Телеграм канал</p>
+                            <button class="contact__info-right-btn" onclick="modal()">
+                                <img src="images/telegram.png" alt="telegram">
+                                Подписатся
+                            </button>
+                            <p class="contact__info-left-title">Мобильная приложение</p>
+                            <div class="contact__info-right-images">
+                                <img src="images/googlePlay-w 1.png" alt="googleplay">
+                                <img src="images/appleStore-w 1.png" alt="appstore">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -128,7 +157,7 @@
             <div class="footer__head">
                 <a href="#" class="footer__head-logo">NAMANGANLIKLAR24</a>
                 <p class="footer__head-description">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
-                <button class="tg-btn-white" type="submit">
+                <button class="tg-btn-white" type="submit" onclick="modal()">
                     <img src="./svg/icon-telegram-blue.svg" alt="telegram">
                     Подписатся
                 </button>
@@ -141,7 +170,7 @@
                 </div>
                 <div class="footer__info-item-titles">
                     <a href="#">Информация о сайте</a>
-                    <a href="/form.html">Напишите нам</a>
+                    <a href="#">Напишите нам</a>
                     <a href="#">Реклама</a>
                     <a href="#">Прислать новость</a>
                 </div>    
@@ -153,6 +182,19 @@
             </div>
         </div>
    </footer>
+   <section class="popup">
+    <div class="popup__block">
+        <img src="svg/x.svg" alt="x-icon-close" id="popup-close">
+        <p class="popup__block-text">
+            Подписывайтесь на наш канал в Telegram 
+            и будьте всегда в курсе самых последних новостей:
+        </p>
+        <button class="tg-btn" type="submit">
+            <img src="./images/telegram.png" alt="telegram">
+            Подписатся
+        </button>
+    </div>
+</section>
     <script src="js/app.js"></script>
 </body>
 </html>

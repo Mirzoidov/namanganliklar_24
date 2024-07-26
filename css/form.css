@@ -114,7 +114,6 @@
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .contact__info-left-title {
@@ -170,4 +169,156 @@
 .contact__info-right-images {
     display: flex;
     gap: 5%;
+}
+
+.mobile__info-block {
+    display: none;
+}
+
+@media screen and (max-width: 1230px) {
+    .form {
+        width: 45%;
+    }
+
+    .contact__info {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .contact-title {
+        font-size: 18px;
+    }
+
+    .contact__info-logo {
+        font-size: 22px;
+    }
+
+    .form-input {
+        font-size: 16px;
+    }
+
+    .form-textarea {
+        font-size: 16px;
+    }
+
+    .form-file {
+        font-size: 16px;
+    }
+
+    .form-password {
+        font-size: 16px;
+    }
+    .form-btn {
+        font-size: 16px;
+    }
+
+    .contact__info-left-title  {
+        font-size: 16px;
+    }
+
+    .contact__info-right-email {
+        font-size: 16px;
+    }
+
+    .contact__info-right-btn {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .contact__form-block {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .contact__info {
+        box-shadow: none; 
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .contact__info {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact__info {
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+
+    .contact-title {
+        font-size: 16px;
+    }
+
+    .contact__info-logo {
+        font-size: 20px;
+    }
+
+    .form-input {
+        font-size: 14px;
+    }
+
+    .form-textarea {
+        font-size: 14px;
+    }
+
+    .form-file {
+        font-size: 14px;
+    }
+
+    .form-password {
+        font-size: 14px;
+    }
+    .form-btn {
+        font-size: 14px;
+    }
+
+    .contact__info-left-title  {
+        font-size: 14px;
+    }
+
+    .contact__info-right-email {
+        font-size: 14px;
+    }
+
+    .contact__info-right-btn {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .desktop__info-block {
+        display: none;
+    }
+
+    .contact__info-logo {
+        text-align: center;
+    }
+
+    .mobile__info-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__info-left-title {
+        margin-bottom: 15px;
+    }
 }

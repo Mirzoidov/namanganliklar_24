@@ -27,11 +27,16 @@
                     <img src="./svg/ru.svg" alt="rus-icon">
                     <p>РУ</p>
                 </button>
-                <button class="tg-btn" type="submit">
+                <button class="tg-btn telegram" type="submit" onclick="modal()">
                     <img src="./images/telegram.png" alt="telegram">
                     Подписатся
                 </button>
             </div>
+        </div>
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
         </div>
         <ul class="menu">
             <li class="menu__list-items">
@@ -68,7 +73,7 @@
         <img src="./images/nrg-banner.jpg" class="banner" alt="nrg banner">
     </div>
    </header>
-   <section class="main">
+   <main class="main">
         <div class="container">
             <div class="main__covid-info">
                 <div class="main__covid-info-item">
@@ -247,49 +252,54 @@
                     </button>
                 </div>
                 <div class="most-popular-news">
-                    <div class="most-popular-news-item">
-                        <h3 class="most-popular-news-item-title">
-                            Cамые популярные новости
-                        </h3>
-                        <p class="most-popular-news-item-text">
-                            По факту прорыва Сардобинского водохранилища 
-                            возбуждено уголовное дело
-                        </p>
-                        <p class="most-popular-news-item-calendar">11:31 /
-                            <span>15.05.2020</span>
-                        </p>
-                    </div>
-                    <div class="most-popular-news-item">
-                        <p class="most-popular-news-item-title">
-                            По факту прорыва Сардобинского водохранилища 
-                            возбуждено уголовное дело
-                        </p>
-                        <p class="most-popular-news-item-calendar">11:31 /
-                            <span>15.05.2020</span>
-                        </p>
-                    </div>
-                    <div class="most-popular-news-item">
-                        <p class="most-popular-news-item-title">
-                            По факту прорыва Сардобинского водохранилища 
-                            возбуждено уголовное дело
-                        </p>
-                        <p class="most-popular-news-item-calendar">11:31 /
-                            <span>15.05.2020</span>
-                        </p>
-                    </div>
-                    <div class="most-popular-news-item">
-                        <p class="most-popular-news-item-title">
-                            По факту прорыва Сардобинского водохранилища 
-                            возбуждено уголовное дело
-                        </p>
-                        <p class="most-popular-news-item-calendar">11:31 /
-                            <span>15.05.2020</span>
-                        </p>
+                    <div class="most-popular-news-block">
+                        <div class="most-popular-news-item">
+                            <h3 class="most-popular-news-item-title">
+                                Cамые популярные новости
+                            </h3>
+                            <p class="most-popular-news-item-text">
+                                По факту прорыва Сардобинского водохранилища 
+                                возбуждено уголовное дело
+                            </p>
+                            <p class="most-popular-news-item-calendar">11:31 /
+                                <span>15.05.2020</span>
+                            </p>
+                            <div class="most-popular-news-item-line"></div>
+                        </div>
+                        <div class="most-popular-news-item">
+                            <p class="most-popular-news-item-title">
+                                По факту прорыва Сардобинского водохранилища 
+                                возбуждено уголовное дело
+                            </p>
+                            <p class="most-popular-news-item-calendar">11:31 /
+                                <span>15.05.2020</span>
+                            </p>
+                            <div class="most-popular-news-item-line"></div>
+                        </div>
+                        <div class="most-popular-news-item">
+                            <p class="most-popular-news-item-title">
+                                По факту прорыва Сардобинского водохранилища 
+                                возбуждено уголовное дело
+                            </p>
+                            <p class="most-popular-news-item-calendar">11:31 /
+                                <span>15.05.2020</span>
+                            </p>
+                            <div class="most-popular-news-item-line"></div>
+                        </div>
+                        <div class="most-popular-news-item">
+                            <p class="most-popular-news-item-title">
+                                По факту прорыва Сардобинского водохранилища 
+                                возбуждено уголовное дело
+                            </p>
+                            <p class="most-popular-news-item-calendar">11:31 /
+                                <span>15.05.2020</span>
+                            </p>
+                        </div>
                     </div>
                     <img src="images/ucell.png" alt="ucell">                </div>
             </div>
             <div class="block__application">
-                <img src="images/phone.png" alt="phone">
+                <img src="images/phone.png" class="block__application-phone" alt="phone">
                 <div class="block__application-info">
                     <h5 class="block__application-info-title">
                         Всегда будьте в курсе последних новостей!
@@ -305,13 +315,13 @@
                 </div>
             </div>
         </div>
-   </section>
+   </main>
    <footer class="footer">
         <div class="container">
             <div class="footer__head">
                 <a href="#" class="footer__head-logo">NAMANGANLIKLAR24</a>
                 <p class="footer__head-description">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
-                <button class="tg-btn-white" type="submit">
+                <button class="tg-btn-white" type="submit" onclick="modal()">
                     <img src="./svg/icon-telegram-blue.svg" alt="telegram">
                     Подписатся
                 </button>
@@ -336,6 +346,19 @@
             </div>
         </div>
    </footer>
+   <section class="popup">
+        <div class="popup__block">
+            <button type="button" id="popup-close">&#10006;</button>
+            <p class="popup__block-text">
+                Подписывайтесь на наш канал в Telegram 
+                и будьте всегда в курсе самых последних новостей:
+            </p>
+            <button class="tg-btn" type="submit">
+                <img src="./images/telegram.png" alt="telegram">
+                Подписатся
+            </button>
+        </div>
+   </section>
     <script src="js/app.js"></script>
 </body>
 </html>
