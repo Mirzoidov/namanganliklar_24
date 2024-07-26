@@ -43,3 +43,14 @@ const navAnim = () => {
   };
   
   navAnim();
+
+  cards.forEach(item => {
+    item.addEventListener('click', e => {
+      e.stopPropagation();
+      const trgt =  e.target.classList.contains('latest-news-item-content') ? e.target.parentNode.closest('h5')  : e.target ;
+      if(trgt) {
+            window.location.href = 'news.html';
+        }
+  })
+  });
+

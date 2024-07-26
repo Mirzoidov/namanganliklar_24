@@ -581,9 +581,6 @@ button {
 /* media */
 
 @media screen and (max-width: 1355px) {
-    body {
-        overflow-x: hidden;
-    }
     .burger {
         position: absolute;
         top: 55px;
@@ -596,7 +593,7 @@ button {
         height: 85vh;
         top: 15vh;
         background-color: #F6F6F9;
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         width: 40%;
@@ -867,7 +864,7 @@ button {
     }
 
     .menu {
-        top: 20vh;
+        top: 16vh;
         height: 100vh;
         width: 50%;
     }
@@ -878,7 +875,6 @@ button {
 }
 
 @media screen and (max-width: 400px) {
-
     .main__news-item {
         width: 49%;
     }
@@ -916,6 +912,7 @@ button {
 
 /* javascript */
 .nav-active {
+    display: flex;
     transform: translate(0);
 }
 

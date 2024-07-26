@@ -51,5 +51,36 @@
 
 .main__news-title {
     font-size: 20px;
+}
 
+@media screen and (max-width: 768px) {
+    .latest-news-title {
+        font-size: 18px;
+    }
+
+    .text-bold {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .text-italic {
+        font-size: 16px;
+    }
+
+    .text-heshteg {
+        font-size: 16px;
+    }
+
+    .main__news-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 380px) { 
+    .text-heshteg {
+        font-size: 14px;
+    }
 }
