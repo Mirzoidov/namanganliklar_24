@@ -809,6 +809,11 @@ button {
         font-size: 14px;
     }
 
+
+    .main__news-item-content h3 {
+        font-size: 12px;
+    }
+
     .main__covid-info {
         flex-wrap: wrap;
     }
