@@ -590,8 +590,8 @@ button {
     .menu {
         position: absolute;
         right: 0;
-        height: 85vh;
-        top: 15vh;
+        height: 93vh;
+        top: 7vh;
         background-color: #F6F6F9;
         display: none;
         flex-direction: column;
@@ -754,6 +754,11 @@ button {
 }
 
 @media screen and (max-width: 900px) {
+    .menu {
+        height: 87vh;
+        top: 13vh;
+    }
+    
     .header__head {
        flex-direction: column;
        align-items: flex-start;
@@ -800,9 +805,6 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
     .menu__list-item {
         font-size: 14px;
     }
@@ -868,8 +870,8 @@ button {
     }
 
     .menu {
-        top: 16vh;
-        height: 100vh;
+        top: 14vh;
+        height: 86vh;
         width: 50%;
     }
 
@@ -884,6 +886,20 @@ button {
     .popup__block-text {
         font-size: 18px;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__info {
+        flex-wrap: wrap;
+    }
+
+    .footer__info-item-titles {
+        margin-top: 20px;
+    }
+
+    .footer__info-item {
+        width: 100%;
+    }   
 }
 
 @media screen and (max-width: 400px) {
@@ -907,18 +923,6 @@ button {
 
     .block__application-images {
         width: 100%;
-    }
-
-    .footer__info {
-        flex-wrap: wrap;
-    }
-
-    .footer__info-item {
-        width: 100%;
-    }
-
-    .footer__info-item-titles {
-        margin-top: 20px;
     }
 }
 
