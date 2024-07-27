@@ -200,6 +200,7 @@ button {
 
 .main__covid-info-item p span {
     font-family: 'Rubik-medium', sans-serif;
+    margin-top: 5px;
     color: #000;
 }
 
@@ -425,6 +426,7 @@ button {
 .block__application-images {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 /* end main & news*/
@@ -847,14 +849,16 @@ button {
 
     .block__application {
         flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
     }
 
     .block__application-info {
-        width: 42%;
+        width: 100%;
     }
 
     .block__application-images {
-        width: 50%;
+        width: 70%;
     }
 
     .footer__head {
