@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'Rubik-medium';
+    font-family: 'Rubik-medium', sans-serif;
 }
 
 li {
@@ -60,7 +60,7 @@ button {
        gap: 15px;
     }
  .logo {
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-bold', sans-serif;
     padding: 4px 8px;
     font-size: 28px;
     line-height: 33px;
@@ -71,14 +71,14 @@ button {
 }
 
 .currency {
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 16px;
     line-height: 19px;
     color: #7A7A7A;
 }
 
 .currency span {
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-bold', sans-serif;
     font-size: 20px;
     color: #285193;
     margin-right: 3px;
@@ -193,24 +193,24 @@ button {
 }
 
 .main__covid-info-item-infected {
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 18px;
     color: #DB0000;
 }
 
 .main__covid-info-item p span {
-    font-family: 'Rubik-medium';
+    font-family: 'Rubik-medium', sans-serif;
     color: #000;
 }
 
 .main__covid-info-item-recovered {
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 18px;
     color: #05B135;
 }
 
 .main__covid-info-item-dead {
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif ;
     font-size: 18px;
 }
 
@@ -317,7 +317,7 @@ button {
  }
 
  .latest-news-item-content p {
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 15px;
     line-height: 18px;
     margin-top: 12px;
@@ -332,7 +332,7 @@ button {
 
  .date p {
     margin-top: 0;
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 14px;
     line-height: 17px;
     color: #7688A4;
@@ -375,7 +375,7 @@ button {
 
 .most-popular-news-item-text {
     margin-top: 1.3%;
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 17px;
     line-height: 20px;
     color: #202020;
@@ -448,7 +448,7 @@ button {
     padding: 10px 10px 10px 8px;
     background: #133C82;
     border-radius: 5px;
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-bold', sans-serif;
     font-size: 16px;
     color: #FFFFFF;
 }
@@ -491,7 +491,7 @@ button {
 
 .footer__info-item-description {
     margin-top: 10px;
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 14px;
     color: #FFFFFF;
     line-height: 17px;

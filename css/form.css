@@ -61,7 +61,7 @@
     opacity: 0.3;
     border: 2px solid #285193;
     border-radius: 5px;
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 18px;
     color: #888888;
     display: flex;
@@ -77,7 +77,7 @@
     border: 2px solid #285193;
     border-radius: 5px;
     margin-bottom: 20px;
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular' sans-serif;
     font-size: 18px;
     color: #888888;
 }
@@ -90,7 +90,7 @@
     border-radius: 5px;
     color: white;
     font-size: 18px;
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-bold' sans-serif;
 }
 
 .contact__info {
@@ -103,7 +103,7 @@
 }
 
 .contact__info-logo {
-    font-family: 'Rubik-bold';
+    font-family: 'Rubik-bold', sans-serif;
     font-size: 28px;
     line-height: 33px;
     color: #295091;
@@ -117,7 +117,7 @@
 }
 
 .contact__info-left-title {
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 30px;
@@ -132,7 +132,7 @@
 }
 
 .contact__info-right-email {
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #888888;
@@ -157,7 +157,7 @@
     align-items: center;
     color: #fff;
     gap: 10px;
-    font-family: 'Rubik-regular';
+    font-family: 'Rubik-regular', sans-serif;
     font-size: 18px;
     margin-bottom: 18px;
 }
