@@ -54,11 +54,13 @@ button {
      justify-content: space-between;
      padding: 44px 0 40px 0;
     }
+
     .header__head div {
        display: flex;
        align-items: center;
        gap: 15px;
     }
+
  .logo {
     font-family: 'Rubik-bold', sans-serif;
     padding: 4px 8px;
@@ -81,7 +83,7 @@ button {
     font-family: 'Rubik-bold', sans-serif;
     font-size: 20px;
     color: #285193;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .search {
