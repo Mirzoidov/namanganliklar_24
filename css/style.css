@@ -809,14 +809,6 @@ button {
         font-size: 14px;
     }
 
-    .currency {
-        color: #202020;
-    }
-
-    .currency span {
-        margin-right: 6px;
-    }
-
     .main__news-item-content h3 {
         font-size: 12px;
     }
@@ -842,18 +834,6 @@ button {
     .main__covid-info-item:nth-child(4) {
         border: none;
         padding: 0;
-    }
-
-    .main__covid-info-item-recovered {
-        line-height: 20px;
-    }
-
-    .main__covid-info-item-infected {
-        line-height: 20px;
-    }
-
-    .main__covid-info-item-dead {
-        line-height: 20px;
     }
 
     .notification {
