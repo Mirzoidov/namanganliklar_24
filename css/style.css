@@ -45,7 +45,7 @@ button {
 
  .container {
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
  }
 
  .header__head {
@@ -138,6 +138,12 @@ button {
     color: #515151;
     font-size: 19px;
     margin-right: 15px;
+    transition: all .4s ease-in-out;
+}
+
+.menu__list-item:hover {
+    color: #206be3;
+    text-decoration: underline;
 }
 
 .banner {

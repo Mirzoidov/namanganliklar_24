@@ -3,6 +3,7 @@
 const popup = document.querySelector('.popup');
 const closeBtn = document.querySelector('#popup-close');
 const cards = document.querySelectorAll('.latest-news-item');
+const mainCard = document.querySelectorAll('.main__news-item');
 
 function modal(){
     popup.style.display = 'flex';
@@ -51,6 +52,16 @@ const navAnim = () => {
       if(trgt) {
             window.location.href = 'news.html';
         }
-  })
+    })
+  });
+
+  mainCard.forEach(item => {
+    item.addEventListener('click', e => {
+      e.stopPropagation();
+      const trgt =  e.target.classList.contains('main__news-item-content') ? e.target.parentNode.closest('h3')  : e.target ;
+      if(trgt) {
+            window.location.href = 'news.html';
+        }
+    })
   });
 
